@@ -4,32 +4,54 @@ body {
     color: white;
     overflow: hidden;
 
-
 }
 
 .fundo {
-    background-color: black;
+    background-color: rgba(8, 8, 8, 0.514);
     text-align: center;
     padding-top: 200px;
     height: 75vh;
+   
 }
 
 .subtitulo {
     font-size: 20px;
-    font-weight: bold; /*negrito*/
+    font-weight: bold;
+    /*negrito*/
     font-family: 'trebuchet ms';
-    letter-spacing: 2px; /*espaçamento das letras*/
+    letter-spacing: 2px;
+    /*espaçamento das letras*/
     margin-top: 10px;
     margin-bottom: 10px;
+}
+    .titulo {
+        font-size: 50px;
+        font-family: tahoma;
+        margin-top: 10px;
+        margin-bottom: 20px;
+     
+    }
+        .destaque {
+            color: black;
+            background-color: white;
+            width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 20px;
+            font-family: arial;
+            
+        }
 
-.titulo {
-    font-size: 20px;
-    font-weight: bold; /*negrito*/
-    font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: 2px; /*espaçamento das letras*/
-    
-  .destaque{
-    color: black;
-    background-color: white;
-    width: 400px;
-  }  
+        .botao{
+            border: 1px solid white; /* tipos de borda: Solid, dashed, dotted. double*/ 
+            padding-top:20px;
+            padding-bottom:20px;
+            padding-left:10px;
+            padding-right:10px;
+            color: white;
+            font: size 20px;
+            font-family: arial;
+            text-decoration: none;
+        }
