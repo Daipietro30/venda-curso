@@ -1,0 +1,35 @@
+body {
+    background-image: url(Imagens/fundo.jpg);
+    background-size: cover;
+    color: white;
+    overflow: hidden;
+
+
+}
+
+.fundo {
+    background-color: black;
+    text-align: center;
+    padding-top: 200px;
+    height: 75vh;
+}
+
+.subtitulo {
+    font-size: 20px;
+    font-weight: bold; /*negrito*/
+    font-family: 'trebuchet ms';
+    letter-spacing: 2px; /*espaçamento das letras*/
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+.titulo {
+    font-size: 20px;
+    font-weight: bold; /*negrito*/
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px; /*espaçamento das letras*/
+    
+  .destaque{
+    color: black;
+    background-color: white;
+    width: 400px;
+  }  
